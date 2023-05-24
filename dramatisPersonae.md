@@ -8,11 +8,11 @@
 
 ## Player Characters
 
-![](art/theParty.png)
-
 1. [Fizznob Fizzlebang](#fizznob-fizzlebang---patrick-kelly)
 1. [Kramdram Benkam](#kramdram-benkam---heith-kippenhan)
 1. [Merrick Brewbottom and Pip the Mastiff](#merrick-brewbottom-and-pip-the-mastiff---tyler-mcgoffin)
+
+![](art/theParty.png)
 
 ### Fizznob Fizzlebang - Patrick Kelly
 
