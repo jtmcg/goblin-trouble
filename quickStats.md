@@ -11,7 +11,7 @@
 1. [Pip](#pip)
 
 ### Fizznob
-| | |
+| [Character Sheet](https://www.dndbeyond.com/characters/59443339) | |
 |--|--|
 | Max HP | 31 |
 | AC |  16/18 (shield) |
@@ -22,7 +22,7 @@
 | Passive Insight | 15 |
 
 ### Kramdram
-| | |
+| [Character Sheet](https://www.dndbeyond.com/characters/66621876) | |
 |--|--|
 | Max HP | 46 |
 | AC |  15 |
@@ -33,7 +33,7 @@
 | Passive Insight | 12 |
 
 ### Merrick
-| | |
+| [Character Sheet](https://www.dndbeyond.com/characters/61200966) | |
 |--|--|
 | Max HP | 74 |
 | AC |  17/19 (shield) |
@@ -45,7 +45,7 @@
 | Passive Animal Handling | 14/19 (Pip) |
 
 ### Pip
-| | |
+| [Character Sheet](https://www.dndbeyond.com/monsters/2094891-pip-the-mastiff) | |
 |--|--|
 | Max HP | 41 |
 | AC | 14 |
@@ -63,7 +63,7 @@
 1. [Tordek](#tordek)
 
 ### Gisealia
-| | |
+| [Stat Block](statblocks/followers/gisealiaStatBlock.png) | |
 |--|--|
 | HP Levels | 6 |
 | AC | 15 |
@@ -73,7 +73,7 @@
 | Notes | Pass Without a Trace 3x/day |
 
 ### Janelle
-| | |
+| [Stat Block](statblocks/followers/janelleStatBlock.png) | |
 |--|--|
 | HP Levels | 6 |
 | AC | 13 |
@@ -82,7 +82,7 @@
 | Skills | +6 to Deceptions, Performance, Persuasion; +3 otherwise |
 
 ### Tordek
-| | |
+| [Stat Block](https://www.dndbeyond.com/monsters/16915-guard) | |
 |--|--|
 | HP | 11 |
 | AC | 16 |
