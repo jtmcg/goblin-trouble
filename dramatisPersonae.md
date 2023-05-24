@@ -1,4 +1,4 @@
-# Dramatis Persona
+# Dramatis Personae
 ### Dungeon Master - Josh Wolf
 
 1. [Player Characters](#player-characters)
