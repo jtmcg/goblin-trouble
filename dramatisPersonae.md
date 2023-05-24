@@ -1,10 +1,18 @@
-# Dramatis Personae
-
+# Dramatis Persona
 ### Dungeon Master - Josh Wolf
+
+1. [Player Characters](#player-characters)
+1. [Followers](#followers)
+1. [Armies](#armies)
+1. [Supporting Cast](#supporting-cast)
 
 ## Player Characters
 
 ![](art/theParty.png)
+
+1. [Fizznob Fizzlebang](#fizznob-fizzlebang---patrick-kelly)
+1. [Kramdram Benkam](#kramdram-benkam---heith-kippenhan)
+1. [Merrick Brewbottom and Pip the Mastiff](#merrick-brewbottom-and-pip-the-mastiff---tyler-mcgoffin)
 
 ### Fizznob Fizzlebang - Patrick Kelly
 
@@ -52,6 +60,11 @@
 
 ## Followers
 
+1. [Aridira](#aridira)
+1. [Gisealia](#gisealia)
+1. [Janelle](#janelle)
+1. [Tordek](#tordek)
+
 ### Aridira
 
 ![](art/followers/aridira.png)
@@ -84,6 +97,9 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 
 ## Armies
 
+1. [Connyberran Bulldogs](#connyberran-bulldogs)
+1. [Whitemeadow Militia](#whitemeadow-militia-in-training)
+
 ### Connyberran Bulldogs
 **Sergeants:** Sarah & Damien
 |Human Regular Light+ Infantry | Commander: Merrick |
@@ -105,6 +121,13 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 |Courageous: Once per battle, succeed on a Morale check it just failed |
 
 ## Supporting Cast
+
+1. [Axeholm/Trading Outpost](#axeholmtrading-outpost)
+1. [Connyberry](#connyberry)
+1. [The Dam](#the-dam)
+1. [Dieties, Legends, and Villains](#dieties-legends-and-villains)
+1. [Obituary](#obituary)
+1. [Whitemeadow](#whitemeadow)
 
 ### Axeholm/Trading Outpost
 
@@ -140,6 +163,12 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 | Sextus Varius | Founder and hero of the Delian order. He has appeared to Merrick on several occasions. | Champion of the Delian Order and new patron of Merrick. Alleged romantic relations with Tasha | Somber and serious, Sextus carries conviction muted by his regrets |
 | Tasha | Maybe the BBEG? Merrick saw her in some visions of Sextus. Found a clone of her in a jar in episode 6 | Alleged romantic relations with Sextus | Bird foot tattoo under her right eye |
 
+### Obituary
+
+| Name | Relevance | Cause of Death |
+| ---- | --------- | -------------- |
+| Dworic | Dwarven companion that recruited us to save the dam (episode 4). Friend of Tordek | Displacer Beast Tentacle on the road between the Wizard Tower and Whitemeadow |
+
 ### Whitemeadow
 
 | Name | Relevance | Relations | Description |
@@ -155,9 +184,3 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 | Pasco | Traveling Merchant - was stranded in Whitemeadow until we escorted him all the way to the Trading Post outside Irondeep. Has agreed to operate the trade route between Whitemeadow/Connyberry and Axeholm | Father of Talwin | Loving father and gentle man. Interested in helping folks and facilitating trade |
 | Ross | Mason | | |
 | Talwin | | Daughter of Pasco | Cute young girl who loves to ride Pip |
-
-### Obituary
-
-| Name | Relevance | Cause of Death |
-| ---- | --------- | -------------- |
-| Dworic | Dwarven companion that recruited us to save the dam (episode 4). Friend of Tordek | Displacer Beast Tentacle on the road between the Wizard Tower and Whitemeadow |
