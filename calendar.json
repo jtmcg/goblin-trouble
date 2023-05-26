@@ -47,7 +47,6 @@
   "year": 0,
   "first_day": 0,
   "notes": {
-    "956-1-1": "",
     "0-1-1": "CALAMITY BEGINS!",
     "0-2-1": "Fizznob shows up in Whitemeadow. Travel to Delian Tomb - Boar wood.",
     "0-2-2": "Gobos in Delian Tomb",
@@ -109,6 +108,7 @@
     "0-5-8": "Kram Max HP 0 (-52)",
     "0-5-14": "Establishment (bank) completed",
     "0-6-2": "Wizard Tower completed",
-    "0-6-16": "Keep completed"
+    "0-6-16": "Keep completed",
+    "956-1-1": ""
   }
 }
