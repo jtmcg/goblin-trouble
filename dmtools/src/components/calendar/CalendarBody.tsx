@@ -1,11 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import CalendarMonth from './CalendarMonth';
 
-const CalendarBodyContainer = styled.div``;
+const CalendarBodyContainer = styled.div(({theme}) => css`
+`);
 
 const CalendarBody = () => {
     return (
-        <CalendarBodyContainer>Calendar Body</CalendarBodyContainer>
+        <CalendarBodyContainer><h2>Calendar Body</h2>
+            <CalendarMonth/>
+        </CalendarBodyContainer>
     )
 }
 

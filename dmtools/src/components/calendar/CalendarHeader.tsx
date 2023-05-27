@@ -5,7 +5,7 @@ const MonthName = styled.div``;
 
 const CalendarHeader = () => {
     return (
-        <MonthName>Month</MonthName>
+        <MonthName><h1>Header</h1></MonthName>
     )
 }
 

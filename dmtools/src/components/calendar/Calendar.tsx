@@ -1,9 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import CalendarHeader from './CalendarHeader';
 import CalendarBody from './CalendarBody';
 
-const CalendarContainer = styled.div``;
+const CalendarContainer = styled.div(({theme}) => css`
+    margin: ${theme.margin.large};
+`);
 
 const Calendar = () => {
     return (
