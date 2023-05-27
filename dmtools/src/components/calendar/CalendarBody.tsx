@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import CalendarMonth from './CalendarMonth';
 import useFetchCalendarData from '../../api-hooks/useFetchCalendarData';
+import getMonthData from '../../utils/getMonthData';
 
 const CalendarBodyContainer = styled.div(({theme}) => css`
 `);
@@ -28,7 +29,19 @@ const CalendarBody = () => {
  
     return (
         <CalendarBodyContainer><h2>Year: {year}</h2>
-            <CalendarMonth/>
+            {months.map((currentMonth) => {
+                const numberOfDaysInMonth = month_len[currentMonth];
+                const monthNotes = getMonthData(notes, months, currentMonth, year)
+
+                return (
+                    <CalendarMonth 
+                        name={currentMonth}
+                        numberOfDays={numberOfDaysInMonth}
+                        weekdays={weekdays}
+                        monthNotes={monthNotes}
+                        />)
+                })
+            }
         </CalendarBodyContainer>
     )
 }

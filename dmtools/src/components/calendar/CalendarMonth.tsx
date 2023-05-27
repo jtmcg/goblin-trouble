@@ -11,13 +11,26 @@ const MonthName = styled.h3(({theme}) => css`
     
 `);
 
-const CalendarMonth = () => {
+interface CalendarMonthProps {
+    name: string;
+    numberOfDays: number;
+    weekdays: string[];
+    monthNotes: {[date: string]: string};
+}
+
+// Implementing for a symmetrical calendar for now
+const CalendarMonth = ({name, numberOfDays, weekdays, monthNotes}: CalendarMonthProps) => {
+    
     return (
         <CalendarMonthContainer>
             <MonthName>
-                Month Name
+                {name}
             </MonthName>
-            <CalendarDaysTable/>
+            <CalendarDaysTable
+                numberOfDays={numberOfDays}
+                weekdays={weekdays}
+                monthNotes={monthNotes}
+            />
         </CalendarMonthContainer>
     )
 }

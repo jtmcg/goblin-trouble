@@ -7,10 +7,16 @@ const CalendarDaysTableContainer = styled.div(({theme}) => css`
     padding: ${theme.padding.normal};
 `);
 
-const CalendarDaysTable = () => {
+interface CalendarDaysTableProps {
+    numberOfDays: number;
+    weekdays: string[];
+    monthNotes: {[date: string]: string};
+}
+
+const CalendarDaysTable = ({numberOfDays, weekdays, monthNotes}: CalendarDaysTableProps) => {
     return (
         <CalendarDaysTableContainer>
-            CalendarDays
+            {JSON.stringify(monthNotes)}
         </CalendarDaysTableContainer>
     )
 }
