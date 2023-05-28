@@ -44,7 +44,7 @@ const CalendarDaysTable = ({numberOfDays, weekdays, monthNotes}: CalendarDaysTab
                                 const day = weekIndex * weekdays.length + dayIndex + 1;
                                 console.log({day, weekIndex, dayIndex});
                                 console.log(monthNotes[String(day)]);
-                                return (<CalendarDaysTableTd key={day}>{monthNotes[String(day)]}</CalendarDaysTableTd>)}
+                                return (<CalendarDaysTableTd key={day}>{`${day}: ${monthNotes[String(day)] ?? ''}`}</CalendarDaysTableTd>)}
                             )}
                         </CalendarDaysTableTr>
                     )}
