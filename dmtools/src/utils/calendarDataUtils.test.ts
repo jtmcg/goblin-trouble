@@ -1,4 +1,4 @@
-import getMonthData, { getMonthIndexFromDateKey, getYearIndexFromDateKey } from './getMonthData';
+import getMonthData, { getDayIndexFromDateKey, getMonthIndexFromDateKey, getYearIndexFromDateKey } from './calendarDataUtils';
 
 const calendarData = {
     "1989-1-16": "Tyler's Birthday",
@@ -19,6 +19,20 @@ const months = [
     "November",
     "December",
 ]
+
+describe('getDayIndexFromDateKey', () => {
+    describe('given the date key 1989-1-16', () => {
+        it('returns 16', () => {
+            expect(getDayIndexFromDateKey('1989-1-16')).toBe('16')
+        })
+    })
+
+    describe('given the date key 1990-7-28', () => {
+        it('returns 28', () => {
+            expect(getDayIndexFromDateKey('1990-7-28')).toBe('28')
+        })
+    })
+})
 
 describe('getMonthIndexFromDateKey', () => {
     describe('given the date key 1989-1-16', () => {
@@ -48,12 +62,12 @@ describe('getYearIndexFromDateKey', () => {
     })
 })
 
-describe.only('getMonthData', () => {
+describe('getMonthData', () => {
     describe('given the month January and year 1989', () => {
         const currentMonth = 'January';
         const year = 1989;
         it('returns only the event data for January 1989', () => {
-            expect(getMonthData(calendarData, months, currentMonth, year)).toMatchObject({"1989-1-16": "Tyler's Birthday"})
+            expect(getMonthData(calendarData, months, currentMonth, year)).toMatchObject({"16": "Tyler's Birthday"})
         })
     })
 
@@ -61,7 +75,7 @@ describe.only('getMonthData', () => {
         const currentMonth = "July";
         const year = 1990;
         it('returns only the event data for that July, 1990', () => {
-            expect(getMonthData(calendarData, months, currentMonth, year)).toMatchObject({"1990-7-28": "Olivia's Birthday"})
+            expect(getMonthData(calendarData, months, currentMonth, year)).toMatchObject({"28": "Olivia's Birthday"})
         })
     })
 })

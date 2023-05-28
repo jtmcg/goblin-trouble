@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import CalendarMonth from './CalendarMonth';
 import useFetchCalendarData from '../../api-hooks/useFetchCalendarData';
-import getMonthData from '../../utils/getMonthData';
+import getMonthData from '../../utils/calendarDataUtils';
 
 const CalendarBodyContainer = styled.div(({theme}) => css`
 `);

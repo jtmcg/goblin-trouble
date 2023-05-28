@@ -1,3 +1,7 @@
+export const getDayIndexFromDateKey = (dateKey: string) => {
+    return dateKey.split('-')[2];
+}
+
 export const getMonthIndexFromDateKey = (dateKey: string) => {
     return dateKey.split('-')[1];
 }
@@ -19,7 +23,7 @@ const getMonthData = (
     
     Object.keys(notes).forEach((dateKey) => {
         if (getMonthIndexFromDateKey(dateKey) === String(monthIndex) && getYearIndexFromDateKey(dateKey) === String(currentYear)) {
-            monthData[dateKey] = notes[dateKey]
+            monthData[getDayIndexFromDateKey(dateKey)] = notes[dateKey]
             }
     });
     return monthData;
