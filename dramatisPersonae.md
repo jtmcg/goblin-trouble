@@ -170,6 +170,7 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 | ---- | --------- | --------- | ----------- |
 | Albion | Elf captain of the band we met in the Elvenwood after killing the Boarc. Quest hook for orc camp and dryad rescue | | Gruff and quick to anger. Fairly prejudiced against dwarves |
 | Anchorites of Talos | Orcs invading the Elvenwood | Worship the evil god Talos | Some affinity to thunder and lightning. One of the anchorites was the Boarc we killed in the Elvenwood that managed to cast both Lightning Bolt and Thunderwave before being dispatched |
+| Vadania | The half-elf that Kram encountered during his watch in the Elvenwood. Gave some intel about "small lizard creatures" and "dragon flying" to the east. Also portended "the creature you keep in your cloak will be your undoing". No one else is aware this encounter occurred. | | Shapeshifter. She was accompanied by a squirrel (familiar?) |
 
 
 ### Obituary
