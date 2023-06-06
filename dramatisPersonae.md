@@ -126,6 +126,7 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 1. [Connyberry](#connyberry)
 1. [The Dam](#the-dam)
 1. [Dieties, Legends, and Villains](#dieties-legends-and-villains)
+1. [The Elvenwood](#the-elvenwood)
 1. [Obituary](#obituary)
 1. [Whitemeadow](#whitemeadow)
 
@@ -162,6 +163,14 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 | Savras | God of Knowledge. Has appeared to Fizznob on several occasions. | Fizznob's Patron Diety (Knowledge Domain) | Cheerful, enigmatic, and erudite, Savras is a bit out of touch with mortal urgency but seems to mean well |
 | Sextus Varius | Founder and hero of the Delian order. He has appeared to Merrick on several occasions. | Champion of the Delian Order and new patron of Merrick. Alleged romantic relations with Tasha | Somber and serious, Sextus carries conviction muted by his regrets |
 | Tasha | Maybe the BBEG? Merrick saw her in some visions of Sextus. Found a clone of her in a jar in episode 6 | Alleged romantic relations with Sextus | Bird foot tattoo under her right eye |
+| Talos | Evil God of Thunder & Storms. His acolytes were banished from society a long time ago. They used to harry the elves. | Patron God to the Orcish incursion to the Elvenwood | |
+
+### The Elvenwood
+| Name | Relevance | Relations | Description |
+| ---- | --------- | --------- | ----------- |
+| Albion | Elf captain of the band we met in the Elvenwood after killing the Boarc. Quest hook for orc camp and dryad rescue | | Gruff and quick to anger. Fairly prejudiced against dwarves |
+| Anchorites of Talos | Orcs invading the Elvenwood | Worship the evil god Talos | Some affinity to thunder and lightning. One of the anchorites was the Boarc we killed in the Elvenwood that managed to cast both Lightning Bolt and Thunderwave before being dispatched |
+
 
 ### Obituary
 
