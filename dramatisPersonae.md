@@ -131,6 +131,7 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 1. [Whitemeadow](#whitemeadow)
 
 ### Axeholm/Trading Outpost
+Nestled in the foothills about a half-days travel from the gates of Irondeep, the Trading Outpost was discovered by the party while en-route to find answers at the Dwarven Capital City. Beset by Kobolds and a White Dragon, the beleaguered inhabitants asked the Party to help clear out the nearby stronghold Axeholm of the undead that haunted its corridors so that the few remaining dwarves could resettle it as a more secure dwelling.
 
 | Name | Relevance | Relations | Description |
 | ---- | --------- | --------- | ----------- |
@@ -142,6 +143,7 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 | Vyldara | Banshee of Axeholm. She was an elven ambassador that allegedly conspired against the dwarves. She was arrested and eventually killed along with many dwarves during her attempted jailbreak. Began haunting the place and cleared everyone out. Un-killed in episode 7 | | |
 
 ### Connyberry
+Sister town to Whitemeadow and a days travel to the east, Connyberry was raided by goblins. Many of its citizens fled to Whitemeadow as refugees, and were eventually trained by Merrick as a militia to eventually take back their town. After staging at the Shrine of Savras not a day to the south, the Party and the militia managed to take back Connyberry from the invading goblins and secure the town. The militia, now seasoned by battle, was thusly named the [Connyberran Bulldogs](#connyberran-bulldogs) by their commander, Merrick.
 
 | Name | Relevance | Relations | Description |
 | ---- | --------- | --------- | ----------- |
@@ -150,12 +152,14 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 | Sarah | Sergeant of the Connyberran Bulldogs | | |
 
 ### The Dam
+Dworic and Tordek, two dwarves that worked at the dam, came to Whitemeadow seeking help liberating the dam from its goblin occupation and repairing its imminent collapse, which would spell certain doom for the occupants of the region. The Party followed the dwarves north to the dam and managed to succeed in both tasks, as well as swell their numbers when [Kramdram Benkam](#kramdram-benkam---heith-kippenhan) decided to join their ranks.
 
 | Name | Relevance | Relations | Description |
 | ---- | --------- | --------- | ----------- |
 | Eberk | Keeper of the Delian Order. Bestowed the [Blessing of the Delian Order](https://www.dndbeyond.com/magic-items/4529817-blessing-of-the-delian-order-splint-mail) on Merrick's armor | | |
 
 ### Dieties, Legends, and Villains
+Various beings of power, most of which have been encountered in dreams, visions, or ill-portents
 
 | Name | Relevance | Relations | Description |
 | ---- | --------- | --------- | ----------- |
@@ -166,6 +170,8 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 | Talos | Evil God of Thunder & Storms. His acolytes were banished from society a long time ago. They used to harry the elves. | Patron God to the Orcish incursion to the Elvenwood | |
 
 ### The Elvenwood
+The woods at the base of the dwarven mountains, the Elvenwood is home to the only known elves in the region. It is beset by an Orcish incursion of the Anchorites of Talos.
+
 | Name | Relevance | Relations | Description |
 | ---- | --------- | --------- | ----------- |
 | Albion | Elf captain of the band we met in the Elvenwood after killing the Boarc. Quest hook for orc camp and dryad rescue | | Gruff and quick to anger. Fairly prejudiced against dwarves |
@@ -174,12 +180,14 @@ Not an official follower via MCDM rules, but acting as a retainer for now. His s
 
 
 ### Obituary
+Those who have followed the Party for one reason or another and lost their lives along the way... May their deaths not be in vain!
 
 | Name | Relevance | Cause of Death |
 | ---- | --------- | -------------- |
 | Dworic | Dwarven companion that recruited us to save the dam (episode 4). Friend of Tordek | Displacer Beast Tentacle on the road between the Wizard Tower and Whitemeadow |
 
 ### Whitemeadow
+The beginning of the story, Whitemeadow is the town Merrick was in when the Calamity occurred. About a month later, Fizz came wandering in to town just in time to embark on an adventure with Merrick to save a young girl from goblin kidnappers. Thus, the Party was formed.
 
 | Name | Relevance | Relations | Description |
 | ---- | --------- | --------- | ----------- |
