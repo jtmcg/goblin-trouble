@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import CalendarDaysTable from './CalendarDaysTable';
+import { LunarData } from './CalendarMoons';
 
 const CalendarMonthContainer = styled.div(({theme}) => css`
 `);
@@ -14,10 +15,12 @@ interface CalendarMonthProps {
     numberOfDays: number;
     weekdays: string[];
     monthNotes: {[date: string]: string};
+    lunarData: LunarData;
+    daysToCurrentMonthSinceCalendarStart: number;
 }
 
 // Implementing for a symmetrical calendar for now
-const CalendarMonth = ({name, numberOfDays, weekdays, monthNotes}: CalendarMonthProps) => {
+const CalendarMonth = ({name, numberOfDays, weekdays, monthNotes, lunarData, daysToCurrentMonthSinceCalendarStart}: CalendarMonthProps) => {
     
     return (
         <CalendarMonthContainer>
@@ -28,6 +31,9 @@ const CalendarMonth = ({name, numberOfDays, weekdays, monthNotes}: CalendarMonth
                 numberOfDays={numberOfDays}
                 weekdays={weekdays}
                 monthNotes={monthNotes}
+                lunarData={lunarData}
+                daysToCurrentMonthSinceCalendarStart={daysToCurrentMonthSinceCalendarStart}
+                monthName={name}
             />
         </CalendarMonthContainer>
     )

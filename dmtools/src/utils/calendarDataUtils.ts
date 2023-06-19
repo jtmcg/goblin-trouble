@@ -9,8 +9,19 @@ export const getMonthIndexFromDateKey = (dateKey: string) => {
 export const getYearIndexFromDateKey = (dateKey: string) => {
     return dateKey.split('-')[0];
 }
+export const computeDaysToCurrentMonthSinceCalendarStart = (year: number, yearLength: number, currentMonth: string, monthLength: {[month: string]: number}) => {
+    const months = Object.keys(monthLength);
+    const passedMonths = computePassedMonthsArray(months, currentMonth);
+    return year * yearLength + passedMonths.reduce((totalDays, currentMonth) => {
+        return totalDays + monthLength[currentMonth];
+    }, 0);
+}
 
-const getMonthData = (
+export const computePassedMonthsArray = (months: string[], currentMonth: string) => {
+    return months.slice(0, months.indexOf(currentMonth));
+}
+
+export const getMonthData = (
     notes: {[date: string]: string},
     months: string[],
     currentMonth: string,
@@ -28,5 +39,3 @@ const getMonthData = (
     });
     return monthData;
 }
-
-export default getMonthData;
