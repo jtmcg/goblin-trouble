@@ -3,8 +3,6 @@ import styled, { css } from 'styled-components';
 import CalendarDaysTable from './CalendarDaysTable';
 
 const CalendarMonthContainer = styled.div(({theme}) => css`
-    border: ${theme.borderStyle.solidblackthin};
-    border-radius: ${theme.borderRadius.soft};
 `);
 
 const MonthName = styled.h3(({theme}) => css`

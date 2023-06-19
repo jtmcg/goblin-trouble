@@ -1,22 +1,22 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import CalendarDay from './CalendarDay';
 
 const CalendarDaysTableContainer = styled.table(({theme}) => css`
     border: ${theme.borderStyle.solidblackthin};
     border-radius: ${theme.borderRadius.soft};
     padding: ${theme.padding.normal};
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
 `);
 
 const CalendarDaysTableTr = styled.tr(({theme}) => css`
     padding: ${theme.padding.thin};
 `);
 
-const CalendarDaysTableTh = styled.th(({theme}) => css`
-    padding: ${theme.padding.thin};
-`)
-
-const CalendarDaysTableTd = styled.td(({theme}) => css`
-    padding: ${theme.padding.normal};
+const CalendarDaysTableTh = styled.th<{numberOfDays: number}>(({theme, numberOfDays}) => css`
+    background-color: ${theme.color.lightgray};
 `)
 
 interface CalendarDaysTableProps {
@@ -32,11 +32,16 @@ const CalendarDaysTable = ({numberOfDays, weekdays, monthNotes}: CalendarDaysTab
             <tbody>
                 <CalendarDaysTableTr>
                     {weekdays.map(dayName => (
-                            <CalendarDaysTableTh key={dayName}>{dayName}</CalendarDaysTableTh>
+                            <CalendarDaysTableTh 
+                                key={dayName}
+                                numberOfDays={numberOfDays}
+                            >
+                                {dayName}
+                            </CalendarDaysTableTh>
                         )
                     )}
                 </CalendarDaysTableTr>
-                {Array(numberOfWeeks).fill(0).map((week, weekIndex) => {
+                {Array(numberOfWeeks).fill(0).map((_week, weekIndex) => {
                     console.log('here')
                     return (
                         <CalendarDaysTableTr key={`week-${weekIndex}`}>
@@ -44,7 +49,7 @@ const CalendarDaysTable = ({numberOfDays, weekdays, monthNotes}: CalendarDaysTab
                                 const day = weekIndex * weekdays.length + dayIndex + 1;
                                 console.log({day, weekIndex, dayIndex});
                                 console.log(monthNotes[String(day)]);
-                                return (<CalendarDaysTableTd key={day}>{`${day}: ${monthNotes[String(day)] ?? ''}`}</CalendarDaysTableTd>)}
+                                return <CalendarDay day={day} numberOfDays={numberOfDays} monthNotes={monthNotes}/>}
                             )}
                         </CalendarDaysTableTr>
                     )}
